@@ -231,9 +231,11 @@
 
                                                     })
                                                     .then(function (response) {
-                                                        console.log("SUCCESS. status=%d, text=%s", response.status, response.text);
+                                                        //console.log("SUCCESS. status=%d, text=%s", response.status, response.text);
+                                                    $('#mail-success').html("Thank you");
                                                     }, function (err) {
-                                                        console.log("FAILED. error=", err);
+                                                       // console.log("FAILED. error=", err);
+                                                   $('#mail-fail').html("Sorry! Try Again.");
                                                     });
                                             }
                                         })
