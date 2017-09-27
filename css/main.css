@@ -35,6 +35,10 @@ a {
     margin-top: 250px;
 
 }
+#btnresume #b11{
+    color: white;
+    background-color: #333;
+}
 
 iframe {
     border: 0;
@@ -173,7 +177,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .title {
-    padding-bottom: 60px;
+    padding-bottom: 20px;
 }
 
 .title h2 {
@@ -317,99 +321,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*=================================================================
-	Our Benefits
-==================================================================*/
-
-#main-features {
-    padding: 70px 0;
-}
-
-.feature-media {
-	margin-bottom: 30px;
-}
-
-.feature-desc a {
-	margin-right: 20px;
-}
-
-
-/*=================================================================
-	Item counter section
-==================================================================*/
-
-/*#counter {
-    background-image: url(../img/parallax/city.jpg);
-    padding: 70px 0;
-}
-
-.counters-item {
-    border: 1px solid #4e595f;
-    padding-bottom: 30px;
-}
-
-.counters-item > div {
-    margin: 10px 0;
-}
-
-.counters-item span {
-    display: inline;
-    font-family: Oswald, sans-serif;
-    font-size: 35px;
-    line-height: 50px;
-}
-
-.counters-item i {
-    margin-bottom: 15px;
-}
-
-.counters-item h3 {
-	font-family: Ubuntu,sans-serif;
-	font-size: 20px;
-	margin: 0;
-}*/
-
-
-/*=================================================================
-	Services section
-==================================================================*/
-
-/*
-#services {
-    padding: 70px 0 100px;
-}
-
-#services .title {
-    padding-bottom: 125px;
-}
-
-.service-block {
-    padding: 50px 20px;
-    border-left: 1px solid #4e595f;
-    border-top: 1px solid #4e595f;
-    margin-bottom: 40px;
-	
-	-webkit-box-shadow:2px 2px 5px rgba(44, 44, 44, .3), 13px 13px 0 rgba(256, 256, 256, .7);
-	   -moz-box-shadow:2px 2px 5px rgba(44, 44, 44, .3), 13px 13px 0 rgba(256, 256, 256, .7);
-			box-shadow:2px 2px 5px rgba(44, 44, 44, .3), 13px 13px 0 rgba(256, 256, 256, .7);
-}
-
-.service-icon {
-    margin-bottom: 40px;
-}
-
-.service-block h3 {
-	text-transform: uppercase;
-}
-*/
-
-
-
-/*=================================================================
 	Portfolio section
 ==================================================================*/
 
 #showcase {
-    padding: 60px 0;
+    padding: 50px 0;
 }
 
 .portfolio-filter {
@@ -551,7 +467,7 @@ h1, h2, h3, h4, h5, h6 {
 ==================================================================*/
 
 #team-skills {
-    padding: 70px 0;
+    padding: 50px 0;
     background-image: url(../img/parallax/skills.jpg);
 }
 
@@ -968,7 +884,7 @@ h1, h2, h3, h4, h5, h6 {
 ==================================================================*/
 
 #contact-us {
-    padding: 0 ;
+    padding: 10 px ;
 }
 
 .contact-form {

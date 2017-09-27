@@ -227,22 +227,23 @@
                                                         notes: b,
                                                         email: c,
                                                         final_name: a
-
-
                                                     })
                                                     .then(function (response) {
                                                         //console.log("SUCCESS. status=%d, text=%s", response.status, response.text);
-                                                    $('#mail-success').html("Thank you");
+                                                        $('#mail-success').html("Thank you");
+                                                        $("#name").val(null);
+                                                        $("#message").val(null);
+                                                        $("#email").val(null);
                                                     }, function (err) {
-                                                       // console.log("FAILED. error=", err);
-                                                   $('#mail-fail').html("Sorry! Try Again.");
+                                                        // console.log("FAILED. error=", err);
+                                                        $('#mail-fail').html("Sorry! Try Again.");
                                                     });
                                             }
                                         })
                                     })
 
 
-                                    
+
                                 });
 
                                 /* ========================================================================= */
@@ -266,16 +267,11 @@
 
                                         var $navArrows = $('#nav-arrows'),
                                             $nav = $('#nav-dots > span'),
-                                            slitslider = $('#slitSlider').slitslider({
-
-                                                    
+                                            slitslider = $('#slitSlider').slitslider({    
                                                 speed: 1600,
-
                                                 onBeforeChange: function (slide, pos) {
-
                                                     $nav.removeClass('nav-dot-current');
                                                     $nav.eq(pos).addClass('nav-dot-current');
-
                                                 }
                                             }),
 
@@ -332,7 +328,6 @@
                                     $('#twitter-feed').parallax("50%", 0.3);
                                     $('#testimonial').parallax("50%", 0.3);
                                 }
-
                                 $(window).bind("load", function () {
                                     parallaxInit()
                                 });
